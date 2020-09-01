@@ -15,7 +15,7 @@ const productArray = [
 const ProductList = () => (
     <ul>
     {productArray.map(product => (
-        <li>{product.title}</li>
+        <div>{product.title}</div>
     ))}
     </ul>
 )
